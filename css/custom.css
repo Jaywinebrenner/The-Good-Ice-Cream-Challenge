@@ -1,0 +1,38 @@
+.title {
+  font-size: 50px;
+}
+.jumbotron {
+  opacity: 0.5;
+}
+
+.solutionType {
+   text-align: center;
+}
+
+.solution {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: url("https://i.kinja-img.com/gawker-media/image/upload/c_scale,f_auto,fl_progressive,pg_1,q_80,w_1600/cbarctkebvxqyut0tbjt.jpg");
+}
+
+.wrapper {
+  margin: 50px;
+}
+
+ul {
+  margin: 50px;
+}
+
+.customButton {
+  text-align: center;
+  margin: 20px 5px;
+}
+
+.buttonWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

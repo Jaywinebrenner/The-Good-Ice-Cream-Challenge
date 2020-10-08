@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  
+  <title>Ice Cream Flavors</title>
+  
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/custom.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  
+<script>
+  window.iceCreamFlavors = [
+    'vanilla',
+    'chocolate',
+    'Cherry Garcia',
+    'Neopolitan',
+    'French vanilla',
+    'bubble gum',
+    'butter pecan'
+  ];
+</script>
+
+</head>
+
+<body>
+  
+  <div class="wrapper">
+    <div class="jumbotron text-center">
+      <h1>The Good Ice Cream Flavors</h1>
+      <h3>Jay Winebrenner</h3>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="container buttonWrapper">
+    <button onclick="runSolutionOne()" type="button" class="btn btn-primary customButton">Solution One</button>
+    <button onclick="runSolutionTwo()" type="button" class="btn btn-primary customButton">Solution Two</button>
+    <button onclick="runSolutionThree()" type="button" class="btn btn-primary customButton">Solution Three</button>
+  </div>
+    <div class="container buttonWrapper">
+      <button onClick="runRemove()" type="button" class="btn btn-danger customButton">Remove Solution From DOM</button>
+    </div>
+
+    <div id="solutionType"></div>
+    <div id="bodyWrapper">
+      <ul class="list-group ice-cream-list">
+      </ul>
+    </div>
+
+
+
+  <script src="bootstrap.min.js"></script>
+  <script src="solutions/solution1.js"></script>
+  <script src="solutions/solution2.js"></script>
+  <script src="solutions/solution3.js"></script>
+
+</body>
+
+</html>
