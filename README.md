@@ -2,6 +2,12 @@
 
 Front end A/B testing demands a strong working knowledge of DOM manipulation. There are often many different ways to achieve the same result.
 
+Deployed Code Here: 
+
+https://jaywinebrenner.github.io/The-Good-Ice-Cream-Challenge/
+
+<img src="./1.gif" width="350">
+
 ## Challenge
 
 **Provide JavaScript code which will manipulate the initial state of an HTML document with an empty unordered list such that the list will contain 7 ice cream flavors from the global array `iceCreamFlavors` with each flavor as child text of a *li* element with the class "ice-cream-flavor".**
